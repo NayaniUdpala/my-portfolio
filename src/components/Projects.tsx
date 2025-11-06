@@ -14,14 +14,14 @@ export function Projects() {
       title: 'MindEase — Wellbeing App',
       description: 'Designing micro-interactions and accessible onboarding flows for mental wellbeing.',
       tags: ['UI Design', 'UX Research', 'Colour Theory'],
-      image: '/MindEase_Mockup.png',
+      image: '/my-portfolio/MindEase_Mockup.png',
       link:'https://www.figma.com/design/oo8KFf3F2Sdzt3MpkritI8/MindEase?node-id=0-1&t=0V5TEVCEZc769Oq3-1'
     },
     {
       title: 'Mobile App UI',
       description: 'A news & community app UI designed in Figma using Material Design principle.',
       tags: ['Mobile Design', 'Prototype', 'Figma'],
-      image: '/FoTHub.png' ,// ✅ This loads your local FoTHub image from the public folder
+      image: '/my-portfolio/FoTHub.png' ,// ✅ This loads your local FoTHub image from the public folder
       link:'https://www.figma.com/design/bE9HRpKHgXEQY5QPrYESIr/assignmet1?t=0V5TEVCEZc769Oq3-1',
       github: 'https://github.com/NayaniUdpala/FOT_NEWS_APP.git'
     },
@@ -29,7 +29,7 @@ export function Projects() {
       title: 'Sweet Crust - Website UI ',
       description: 'A clean, responsive bakery website UI designed in Figma with soft pastel tones.',
       tags: ['Web Design', 'UI/UX', 'Figma'],
-      image: '/SweetCrust_Mockup.png',
+      image: '/my-portfolio/SweetCrust_Mockup.png',
       link:'https://www.figma.com/design/IuNNDbITUHjrNeAZeybEzH/SWEETCRUST?t=Ey5U0nJmjrc2czyM-1'
     },
     {

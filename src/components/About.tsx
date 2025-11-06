@@ -3,10 +3,13 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { MonitorSmartphoneIcon, PaletteIcon, LightbulbIcon } from 'lucide-react';
 
+// ✅ Import your image from src/Assets
+import NayaniImg from '../Assets/Nayani.png';
+
 export function About() {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1
+    threshold: 0.1,
   });
 
   const features = [
@@ -14,20 +17,20 @@ export function About() {
       icon: PaletteIcon,
       title: 'UI/UX Design',
       description:
-        'Designing clean, intuitive, and visually engaging user interfaces using Figma and design systems.'
+        'Designing clean, intuitive, and visually engaging user interfaces using Figma and design systems.',
     },
     {
       icon: MonitorSmartphoneIcon,
       title: 'Web Design',
       description:
-        'Creating adaptive layouts that look great on all devices — mobile, tablet, and desktop.'
+        'Creating adaptive layouts that look great on all devices — mobile, tablet, and desktop.',
     },
     {
       icon: LightbulbIcon,
       title: 'Creative Thinking',
       description:
-        'Combining aesthetics and problem-solving to deliver meaningful user experiences.'
-    }
+        'Combining aesthetics and problem-solving to deliver meaningful user experiences.',
+    },
   ];
 
   return (
@@ -57,9 +60,8 @@ export function About() {
             className="relative flex justify-center"
           >
             <div className="w-80 h-80 rounded-2xl overflow-hidden border-4 border-yellow-500/40 shadow-xl hover:scale-105 transition-transform duration-300">
-              {/* 👉 Replace 'my-photo.jpg' with your actual image file path */}
               <img
-                src="/nayani.png"
+                src={NayaniImg}
                 alt="Nayani Wickramaarachchi"
                 className="w-full h-full object-cover"
               />
