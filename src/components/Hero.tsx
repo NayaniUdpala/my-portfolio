@@ -80,8 +80,8 @@ export function Hero() {
         duration: 0.8,
         delay: 0.4
       }} className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
-          UI/UX Designer crafting magical digital experiences through innovative
-          design and seamless user interactions
+          UI/UX & Multimedia Designer crafting captivating digital experiences through innovative 
+          design and seamless user interactions.
         </motion.p>
         <motion.div initial={{
         opacity: 0,

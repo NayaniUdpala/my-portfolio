@@ -78,22 +78,22 @@ export function About() {
               Designing Meaningful Digital Experiences
             </h3>
             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-              I'm Nayani Wickramaarachchi, a passionate UI/UX designer currently
-              studying at the University of Colombo, Faculty of Technology
-              (2023–present). I love creating beautiful, functional, and
-              user-centered digital experiences that make a difference.
-            </p>
-            <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-              I've been dedicated to mastering the art of creating intuitive
-              interfaces. I specialize in transforming complex problems into
-              elegant solutions through innovative design thinking and user
-              research.
-            </p>
-            <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-              I believe in the power of design to make technology more human and
-              accessible, combining creativity with technical expertise to
-              deliver exceptional user experiences.
-            </p>
+             I'm Nayani Wickramaarachchi, a passionate UI/UX & Multimedia Designer currently
+            studying at the University of Colombo, Faculty of Technology (2023–present).
+            I love crafting visually engaging, functional, and user-centered digital experiences
+            that inspire and make a difference.
+           </p>
+           <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+            I've been dedicated to mastering the art of intuitive design—transforming complex
+            challenges into elegant, meaningful solutions through creative thinking, user
+            research, and a strong focus on usability and aesthetics.
+           </p>
+           <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+            I believe in the power of design to make technology more human, accessible, and
+            emotionally resonant—combining creativity with technical expertise to deliver
+            seamless, impactful user experiences across digital platforms.
+           </p>
+
           </motion.div>
         </div>
 
